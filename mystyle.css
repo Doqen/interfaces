@@ -121,7 +121,7 @@ li a:hover {
 
 @media (max-width: 1200px) or (max-width: 1399px) {
     .jumbotron-xl {
-        background-image: url("Pictures/1400px.jpg");
+        background-image: url("pictures/1400px.jpg");
         height: 591px;
     }
     .map-xl {
@@ -131,7 +131,7 @@ li a:hover {
 
 @media (min-width: 1400px) {
     .jumbotron-xxl {
-        background-image: url("Pictures/casa_camilo_v3.jpg");
+        background-image: url("pictures/casa_camilo_v3.jpg");
         height: 810px;
     }
     .map-xxl {
