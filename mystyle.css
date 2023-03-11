@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Mukta', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+}
+
+.nav-container {
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    border: 1px solid black;
+}
+
+.brand-name {
+    position: absolute;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2.3em;
+    top: 15%;
+    bottom: 50%;
+    left: 10%;
+}
+
+.menu {
+    background-color: rgb(255, 0, 0);
+    font-size: 0.8em;
+}
+
+.menu-element {
+    padding-inline: 15px;
+    border: 5px black;
+}
+
+.menu-list {
+    display: flex;
+    position: absolute;
+    right: 15%;
+    top: 45%;
+    bottom: 50%;
+    list-style-type: none;
+    border: 5px black;
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+a {
+    color: black;
+}
+
+li a:hover {
+    color: #d4b976;
+
+}
+
+.blocks-container {
+    height: 250px;
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}
+
+.block {
+    width: 20%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin-right: 60px;
+    margin-left: 60px;
+    border: 1px solid white;
+}
+
+.map {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.footer-container {
+    height: 63px;
+    width: 100%;
+}
+
+.footer-content {
+    text-align: center;
+    width: 100%;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+    
+}
+
+@media (max-width: 576px) and (max-width: 767px) {
+    
+}
+
+@media (max-width: 768px) and (max-width: 991px) {
+    
+}
+
+@media (max-width: 992px) and (max-width: 1199px) {
+    
+}
+
+@media (max-width: 1200px) or (max-width: 1399px) {
+    .jumbotron-xl {
+        background-image: url("Pictures/1400px.jpg");
+        height: 591px;
+    }
+    .map-xl {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .jumbotron-xxl {
+        background-image: url("Pictures/casa_camilo_v3.jpg");
+        height: 810px;
+    }
+    .map-xxl {
+        width: 100%;
+    }
+}
+
+
+
+
