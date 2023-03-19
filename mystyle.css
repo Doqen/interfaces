@@ -16,4 +16,57 @@ body {
     width: 100%;
 }
 
+.fs-4 {
+    position: relative;
+    color: white;
+} 
+
+.logo {
+    position: absolute;
+}
+
+.logo2 {
+    width: 150px;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .logo {
+        width: 100px;
+        position: absolute;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .logo {
+        width: 120px;
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .logo {
+        width: 140px;
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .logo {
+        width: 140px;
+        margin-left: 2%;
+    }
+}
+
+@media (min-width: 1400px) {
+    .logo {
+        width: 150px;
+        margin-left: 2%;
+    }
+}
+
+
+
 
