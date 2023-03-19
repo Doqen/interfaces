@@ -32,6 +32,16 @@ body {
     margin-bottom: 2%;
 }
 
+.quote {
+    margin-top: 2%;
+    margin-left: 12%;
+}
+
+.author {
+    margin-left: 55%;
+    text-decoration: bold;
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
     .logo {
         width: 100px;
