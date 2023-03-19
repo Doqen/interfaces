@@ -42,6 +42,31 @@ body {
     text-decoration: bold;
 }
 
+.pic {
+    position: relative;
+    margin-top: 10%;
+}
+
+.pic1 {
+    max-width: 355px;
+    height: auto;
+}
+
+area:hover:after {
+    display: block;
+    background-color: rgba(72, 0, 253, 0.2);
+    content: ' ';
+  }
+
+#rect::after {
+    position: absolute;
+    top: 0;
+    left: 55px;
+    width: 102px;
+    height: 126px;
+  }
+
+
 @media (min-width: 576px) and (max-width: 767px) {
     .logo {
         width: 100px;
