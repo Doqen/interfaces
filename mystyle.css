@@ -48,7 +48,7 @@ body {
 }
 
 .pic1 {
-    max-width: 355px;
+    max-width: 320px;
     height: auto;
 }
 
@@ -58,12 +58,12 @@ area:hover:after {
     content: ' ';
   }
 
-#rect::after {
+#rect1::after {
     position: absolute;
     top: 0;
-    left: 55px;
-    width: 102px;
-    height: 126px;
+    left: 68px;
+    width: 93px;
+    height: 113px;
   }
 
 
