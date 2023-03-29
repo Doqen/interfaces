@@ -43,6 +43,7 @@ body {
 }
 
 .pic {
+    background-color: red;
     margin-top: 15%;
     width: 320px!important;
     position: relative;
