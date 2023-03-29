@@ -43,8 +43,9 @@ body {
 }
 
 .pic {
+    margin-top: 15%;
+    width: 320px!important;
     position: relative;
-    margin-top: 10%;
 }
 
 .pic1 {
@@ -60,8 +61,8 @@ area:hover:after {
 
 #rect1::after {
     position: absolute;
-    top: 0;
-    left: 68px;
+    top: 0px;
+    left: 39px;
     width: 93px;
     height: 113px;
   }
