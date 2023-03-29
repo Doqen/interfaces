@@ -69,6 +69,10 @@ area:hover:after {
     height: 113px;
   }
 
+.room-title {
+    font-size: 25px;
+}
+
 
 @media (min-width: 576px) and (max-width: 767px) {
     .logo {
@@ -99,6 +103,10 @@ area:hover:after {
 }
 
 @media (min-width: 1400px) {
+    #carouselExampleIndicators {
+        width: 69%;
+        margin-left: 15.5%;
+    }
     .logo {
         width: 150px;
         margin-left: 2%;

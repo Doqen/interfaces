@@ -1,18 +1,32 @@
-function descendingOrder(n){
-  let array = [];
-  let splitt = n.toString();
-  for (let i = 0; i < splitt; i++) {
-    let value = splitt[0];
-    array.push(value);
+let carouselhandle = document.getElementById("descriptions");
+let carousel = carouselhandle.getElementsByClassName("room-description");
+
+function btnnext() {
+  for (var i = 0; i < carousel.length; i++) {
+    var div = carousel[i];
+    if (!carousel[i].classList.contains("d-none")) {
+      carousel[i].classList.add("d-none")
+      if (i === carousel.length - 1) {
+        carousel[0].classList.remove("d-none");
+      } else {
+        carousel[i+1].classList.remove("d-none");
+      }
+      break;
+    }
   }
-  for (let i = 0; i < array; i++) {
-    let array2 = [];
-    let value1 = array[i];
-    let maxnumber = 0;
-    if (value1 > maxnumber && !(maxnumber in array)) {
-        maxnumber = value1;
-        array2.push(maxnumber);
-        }
-  return array2;
+ }
+
+ function btnnext2() {
+  for (var i = 0; i < carousel.length; i++) {
+    var div = carousel[i];
+    if (!carousel[i].classList.contains("d-none")) {
+      carousel[i].classList.add("d-none")
+      if (i === 0) {
+        carousel[2].classList.remove("d-none");
+      } else {
+        carousel[i-1].classList.remove("d-none");
+      }
+      break;
+    }
   }
-}
+ }
