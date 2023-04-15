@@ -39,6 +39,14 @@ body {
     margin-left: 12%;
 }
 
+.author-desktop {
+   margin-bottom: 2%;
+}
+
+.quote-desktop {
+    margin-top: 2%;
+}
+
 .author {
     margin-left: 43%;
     text-decoration: bold;
@@ -71,6 +79,31 @@ area:hover:after {
 
 .room-title {
     font-size: 25px;
+}
+
+.footer {
+    position: relative;
+    height: 270px;
+}
+
+.map {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+
+.copyr {
+    position: absolute;
+    left: 41%;
+    bottom: 30px;
+    font-size: 0.8em;
+}
+
+.footer-info {
+    position: absolute;
+    left: 2%;
+    top: 50px;
+    font-size: 0.8em;
 }
 
 

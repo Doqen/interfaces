@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <author name="Camilo Castelo Branco">
+        <book title="Amor de Perdição" year="1862">
+            <image url="https://faciletrando.files.wordpress.com/2016/04/amor-de-perdic3a7c3a3o.png"/>
+            <chapter number="1">No dia seguinte ao da chegada de Simão Botelho a Coimbra...</chapter>
+            <chapter number="2">As manhãs em Coimbra são agradabilíssimas, sobretudo no princípio de outono...</chapter>
+            <chapter number="3">Se a reputação de Camilo Castelo Branco tivesse de basear-se só no Amor de Perdição...</chapter>
+        </book>
+        <book title="Onde Está a Felicidade?" year="1864">
+            <image url="https://aeaveiro.pt/biblioteca/elivros/Camilo%20Castelo%20Branco/Onde%20esta%20a%20Felicidade%20%284134%29/cover.jpg"/>
+            <chapter number="1">Quatro ou cinco horas depois da morte do senhor Borges de Sousa...</chapter>
+            <chapter number="2">À noite, mais ou menos tarde, entre as nove e as onze, tinha a marquesa de Alorna as suas conversações íntimas...</chapter>
+            <chapter number="3">Nas conversas com a mãe sobre o casamento que se ajustava com o filho...</chapter>
+        </book>
+        <book title="A Queda de Um Anjo" year="1866">
+            <image url="https://s1.kuantokusta.pt/img_upload/produtos_livrosmusicafilmes/5201662_3_a-queda-dum-anjo.jpg"/>
+            <chapter number="1">Era uma noite de julho; a madrugada estava serena e quente...</chapter>
+            <chapter number="2">O Marquês de Tavora e o Duque de Aveiro eram odiados por D. João V, mas por diferentes motivos...</chapter>
+            <chapter number="3">No dia seguinte àquele em que se deu a conferência mencionada no capítulo antecedente...</chapter>
+        </book>
+    </author>
+</library>
