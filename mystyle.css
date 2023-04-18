@@ -68,7 +68,6 @@ body {
     margin-top: 2%;
 }
 
-
 area:hover:after {
     display: block;
     background-color: rgba(0, 253, 0, 0.3);
@@ -229,6 +228,7 @@ area:hover:after {
     .mapa_xs {
         display: none;
     }
+
     #rect1::after {
         position: absolute;
         top: 10px;
@@ -334,7 +334,7 @@ area:hover:after {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 575px) {
     .mapa_md {
         display: none;
     }
@@ -343,6 +343,112 @@ area:hover:after {
     }
     .mapa_sm {
         display: none;
+    }
+    #mapa_xs {
+        position: relative;
+    }
+    #rect1::after {
+        position: absolute;
+        top: 8px;
+        left: 104px;
+        width: 97px;
+        height: 139px;
+      }
+    
+    #rect2::after {
+        position: absolute;
+        top: 8px;
+        left: 8px;
+        width: 90px;
+        height: 92px;
+    }
+    
+    #rect3::after {
+        position: absolute;
+        top: 106px;
+        left: 8px;
+        width: 90px;
+        height: 116px;
+    }
+    
+    #rect4::after {
+        position: absolute;
+        top: 227px;
+        left: 7px;
+        width: 91px;
+        height: 88px;
+    }
+    
+    #rect5::after {
+        position: absolute;
+        top: 152px;
+        left: 132px;
+        width: 67px;
+        height: 110px;
+    }
+    
+    #rect6::after {
+        position: absolute;
+        top: 266px;
+        left: 133px;
+        width: 67px;
+        height: 78px;
+    }
+    
+    #rect7::after {
+        position: absolute;
+        top: 153px;
+        left: 103px;
+        width: 25px;
+        height: 166px;
+    }
+    
+    #rect8::after {
+        position: absolute;
+        top: 350px;
+        left: 103px;
+        width: 97px;
+        height: 83px;
+      } 
+      
+    #rect9::after {
+        position: absolute;
+        top: 142px;
+        left: 124px;
+        width: 56px;
+        height: 189px;
+    }
+    
+    #rect10::after {
+        position: absolute;
+        top: 237px;
+        left: 97px;
+        width: 23px;
+        height: 130px;
+    }
+    
+    #rect11::after {
+        position: absolute;
+        top: 371px;
+        left: 28px;
+        width: 92px;
+        height: 50px;
+    }
+    
+    #rect12::after {
+        position: absolute;
+        top: 340px;
+        left: 27px;
+        width: 64px;
+        height: 27px;
+    }
+    
+    #rect13::after {
+        position: absolute;
+        top: 142px;
+        left: 28px;
+        width: 66px;
+        height: 194px;
     }
 }
 
