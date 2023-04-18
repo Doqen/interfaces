@@ -63,18 +63,126 @@ body {
     height: auto;
 }
 
+.floormap {
+    position: relative;
+    margin-top: 2%;
+}
+
+
 area:hover:after {
     display: block;
-    background-color: rgba(0, 253, 0, 0.2);
+    background-color: rgba(0, 253, 0, 0.3);
     content: ' ';
   }
 
 #rect1::after {
     position: absolute;
-    top: 0px;
-    left: 39px;
-    width: 93px;
-    height: 113px;
+    top: 17px;
+    left: 224px;
+    width: 278px;
+    height: 190px;
+  }
+
+#rect2::after {
+    position: absolute;
+    top: 220px;
+    left: 224px;
+    width: 184px;
+    height: 180px;
+}
+
+#rect3::after {
+    position: absolute;
+    top: 220px;
+    left: 417px;
+    width: 232px;
+    height: 180px;
+}
+
+#rect4::after {
+    position: absolute;
+    top: 220px;
+    left: 659px;
+    width: 175px;
+    height: 180px;
+}
+
+#rect5::after {
+    position: absolute;
+    top: 17px;
+    left: 512px;
+    width: 217px;
+    height: 133px;
+}
+
+#rect6::after {
+    position: absolute;
+    top: 17px;
+    left: 741px;
+    width: 154px;
+    height: 133px;
+}
+
+#rect7::after {
+    position: absolute;
+    top: 161px;
+    left: 511px;
+    width: 332px;
+    height: 47px;
+}
+
+#rect8::after {
+    position: absolute;
+    top: 17px;
+    left: 906px;
+    width: 165px;
+    height: 192px;
+  } 
+  
+#rect9::after {
+    position: absolute;
+    top: 56px;
+    left: 491px;
+    width: 374px;
+    height: 110px;
+}
+
+#rect10::after {
+    position: absolute;
+    top: 177px;
+    left: 681px;
+    width: 260px;
+    height: 45px;
+}
+
+#rect11::after {
+    position: absolute;
+    top: 177px;
+    left: 950px;
+    width: 99px;
+    height: 184px;
+}
+
+#rect12::after {
+    position: absolute;
+    top: 231px;
+    left: 886px;
+    width: 54px;
+    height: 130px;
+}
+
+#rect13::after {
+    position: absolute;
+    top: 232px;
+    left: 490px;
+    width: 386px;
+    height: 129px;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 .room-title {
@@ -112,12 +220,248 @@ area:hover:after {
         width: 100px;
         position: absolute;
     }
+    .mapa_md {
+        display: none;
+    }
+    .mapa_sm {
+        display: none;
+    }
+    .mapa_xs {
+        display: none;
+    }
+    #rect1::after {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 169px;
+        height: 115px;
+      }
+    
+    #rect2::after {
+        position: absolute;
+        top: 132px;
+        left: 10px;
+        width: 111px;
+        height: 108px;
+    }
+    
+    #rect3::after {
+        position: absolute;
+        top: 132px;
+        left: 127px;
+        width: 139px;
+        height: 108px;
+    }
+    
+    #rect4::after {
+        position: absolute;
+        top: 133px;
+        left: 271px;
+        width: 105px;
+        height: 107px;
+    }
+    
+    #rect5::after {
+        position: absolute;
+        top: 10px;
+        left: 181px;
+        width: 132px;
+        height: 80px;
+    }
+    
+    #rect6::after {
+        position: absolute;
+        top: 10px;
+        left: 320px;
+        width: 92px;
+        height: 81px;
+    }
+    
+    #rect7::after {
+        position: absolute;
+        top: 97px;
+        left: 183px;
+        width: 193px;
+        height: 29px;
+    }
+    
+    #rect8::after {
+        position: absolute;
+        top: 10px;
+        left: 419px;
+        width: 99px;
+        height: 116px;
+      } 
+      
+    #rect9::after {
+        position: absolute;
+        top: 33px;
+        left: 182px;
+        width: 224px;
+        height: 67px;
+    }
+    
+    #rect10::after {
+        position: absolute;
+        top: 105px;
+        left: 296px;
+        width: 156px;
+        height: 28px;
+    }
+    
+    #rect11::after {
+        position: absolute;
+        top: 105px;
+        left: 458px;
+        width: 60px;
+        height: 112px;
+    }
+    
+    #rect12::after {
+        position: absolute;
+        top: 141px;
+        left: 419px;
+        width: 32px;
+        height: 76px;
+    }
+    
+    #rect13::after {
+        position: absolute;
+        top: 140px;
+        left: 182px;
+        width: 232px;
+        height: 76px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mapa_md {
+        display: none;
+    }
+    .mapa_sm_2 {
+        display: none;
+    }
+    .mapa_sm {
+        display: none;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    .mapa_md {
+        display: none;
+    }
+    .mapa_sm_2 {
+        display: none;
+    }
+    .mapa_xs {
+        display: none;
+    }
     .logo {
         width: 120px;
         margin-left: 2%;
+    }
+    #rect1::after {
+        position: absolute;
+        top: 13px;
+        left: 29px;
+        width: 211px;
+        height: 146px;
+      }
+    
+    #rect2::after {
+        position: absolute;
+        top: 165px;
+        left: 29px;
+        width: 140px;
+        height: 136px;
+    }
+    
+    #rect3::after {
+        position: absolute;
+        top: 165px;
+        left: 175px;
+        width: 175px;
+        height: 135px;
+    }
+    
+    #rect4::after {
+        position: absolute;
+        top: 165px;
+        left: 358px;
+        width: 132px;
+        height: 136px;
+    }
+    
+    #rect5::after {
+        position: absolute;
+        top: 12px;
+        left: 247px;
+        width: 163px;
+        height: 102px;
+    }
+    
+    #rect6::after {
+        position: absolute;
+        top: 12px;
+        left: 416px;
+        width: 118px;
+        height: 100px;
+    }
+    
+    #rect7::after {
+        position: absolute;
+        top: 121px;
+        left: 246px;
+        width: 246px;
+        height: 36px;
+    }
+    
+    #rect8::after {
+        position: absolute;
+        top: 12px;
+        left: 542px;
+        width: 124px;
+        height: 144px;
+      } 
+      
+    #rect9::after {
+        position: absolute;
+        top: 42px;
+        left: 231px;
+        width: 280px;
+        height: 83px;
+    }
+    
+    #rect10::after {
+        position: absolute;
+        top: 133px;
+        left: 372px;
+        width: 196px;
+        height: 34px;
+    }
+    
+    #rect11::after {
+        position: absolute;
+        top: 132px;
+        left: 575px;
+        width: 75px;
+        height: 138px;
+    }
+    
+    #rect12::after {
+        position: absolute;
+        top: 175px;
+        left: 526px;
+        width: 41px;
+        height: 96px;
+    }
+    
+    #rect13::after {
+        position: absolute;
+        top: 174px;
+        left: 231px;
+        width: 289px;
+        height: 96px;
     }
 }
 
@@ -126,12 +470,236 @@ area:hover:after {
         width: 140px;
         margin-left: 2%;
     }
+    .mapa_sm {
+        display: none;
+    }
+    .mapa_xs {
+        display: none;
+    }
+    .mapa_sm_2 {
+        display: none;
+    }
+    #rect1::after {
+        position: absolute;
+        top: 17px;
+        left: 44px;
+        width: 278px;
+        height: 190px;
+      }
+    
+    #rect2::after {
+        position: absolute;
+        top: 220px;
+        left: 43px;
+        width: 184px;
+        height: 180px;
+    }
+    
+    #rect3::after {
+        position: absolute;
+        top: 220px;
+        left: 238px;
+        width: 232px;
+        height: 180px;
+    }
+    
+    #rect4::after {
+        position: absolute;
+        top: 220px;
+        left: 481px;
+        width: 175px;
+        height: 180px;
+    }
+    
+    #rect5::after {
+        position: absolute;
+        top: 17px;
+        left: 333px;
+        width: 217px;
+        height: 133px;
+    }
+    
+    #rect6::after {
+        position: absolute;
+        top: 17px;
+        left: 561px;
+        width: 154px;
+        height: 133px;
+    }
+    
+    #rect7::after {
+        position: absolute;
+        top: 161px;
+        left: 330px;
+        width: 332px;
+        height: 47px;
+    }
+    
+    #rect8::after {
+        position: absolute;
+        top: 17px;
+        left: 727px;
+        width: 165px;
+        height: 192px;
+      } 
+      
+    #rect9::after {
+        position: absolute;
+        top: 56px;
+        left: 312px;
+        width: 374px;
+        height: 110px;
+    }
+    
+    #rect10::after {
+        position: absolute;
+        top: 177px;
+        left: 501px;
+        width: 260px;
+        height: 45px;
+    }
+    
+    #rect11::after {
+        position: absolute;
+        top: 177px;
+        left: 769px;
+        width: 99px;
+        height: 184px;
+    }
+    
+    #rect12::after {
+        position: absolute;
+        top: 231px;
+        left: 707px;
+        width: 54px;
+        height: 130px;
+    }
+    
+    #rect13::after {
+        position: absolute;
+        top: 232px;
+        left: 310px;
+        width: 386px;
+        height: 129px;
+    }
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
     .logo {
         width: 140px;
         margin-left: 2%;
+    }
+    .mapa_sm {
+        display: none;
+    }
+    .mapa_xs {
+        display: none;
+    }
+    .mapa_sm_2 {
+        display: none;
+    }
+    #rect1::after {
+        position: absolute;
+        top: 17px;
+        left: 135px;
+        width: 278px;
+        height: 190px;
+      }
+    
+    #rect2::after {
+        position: absolute;
+        top: 220px;
+        left: 133px;
+        width: 184px;
+        height: 180px;
+    }
+    
+    #rect3::after {
+        position: absolute;
+        top: 220px;
+        left: 328px;
+        width: 232px;
+        height: 180px;
+    }
+    
+    #rect4::after {
+        position: absolute;
+        top: 220px;
+        left: 571px;
+        width: 175px;
+        height: 180px;
+    }
+    
+    #rect5::after {
+        position: absolute;
+        top: 17px;
+        left: 423px;
+        width: 217px;
+        height: 133px;
+    }
+    
+    #rect6::after {
+        position: absolute;
+        top: 17px;
+        left: 651px;
+        width: 154px;
+        height: 133px;
+    }
+    
+    #rect7::after {
+        position: absolute;
+        top: 161px;
+        left: 419px;
+        width: 332px;
+        height: 47px;
+    }
+    
+    #rect8::after {
+        position: absolute;
+        top: 17px;
+        left: 817px;
+        width: 165px;
+        height: 192px;
+      } 
+      
+    #rect9::after {
+        position: absolute;
+        top: 56px;
+        left: 402px;
+        width: 374px;
+        height: 110px;
+    }
+    
+    #rect10::after {
+        position: absolute;
+        top: 177px;
+        left: 589px;
+        width: 260px;
+        height: 45px;
+    }
+    
+    #rect11::after {
+        position: absolute;
+        top: 177px;
+        left: 860px;
+        width: 99px;
+        height: 184px;
+    }
+    
+    #rect12::after {
+        position: absolute;
+        top: 231px;
+        left: 797px;
+        width: 54px;
+        height: 130px;
+    }
+    
+    #rect13::after {
+        position: absolute;
+        top: 232px;
+        left: 401px;
+        width: 386px;
+        height: 129px;
     }
 }
 
@@ -143,6 +711,15 @@ area:hover:after {
     .logo {
         width: 150px;
         margin-left: 2%;
+    }
+    .mapa_sm {
+        display: none;
+    }
+    .mapa_xs {
+        display: none;
+    }
+    .mapa_sm_2 {
+        display: none;
     }
 }
 

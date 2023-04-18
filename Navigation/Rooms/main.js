@@ -22,7 +22,7 @@ function btnnext() {
     if (!carousel[i].classList.contains("d-none")) {
       carousel[i].classList.add("d-none")
       if (i === 0) {
-        carousel[2].classList.remove("d-none");
+        carousel[3].classList.remove("d-none");
       } else {
         carousel[i-1].classList.remove("d-none");
       }

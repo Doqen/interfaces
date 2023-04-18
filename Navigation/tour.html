@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="../mystyle.css">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/headers/">
     <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Camilo Castelo branco</title>
+    <title>Camilo Castelo Branco</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="floor.js"></script>
   </head>
   <body>
     <div class="d-block d-sm-none">
@@ -42,29 +44,132 @@
           </ul>
         </header>
     </div>
-    <div class="container d-none d-sm-block">
-    <img src="../pictures/casa_camilo_v3.jpg" class="img-fluid" alt="Casa de Camilo Castelo Branco">
-    </div>
-    <div class="container d-flex justify-content-center align-items-center d-block d-sm-none pic">
-            <img class="pic1" src="../pictures/planta2.png" alt="Building floor plan" usemap="#floorplan">
-                <map name="floorplan">
-                  <area id="rect1" shape="rect" coords="42,0,133,113" href="Rooms/room1.html">
-                </map>
-        </div>
-    <div class="container bg-3 text-center mt-4 d-none d-sm-block">    
-        <div class="row">
-          <div class="col-sm-4">
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-4"> 
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-          </div>
-          <div class="col-sm-4"> 
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-          </div>
-        </div>
+    <div class="container text-center">
+     <h1>Digital Tour</h1>
+     <button id="floor1Btn" class="btn btn-primary active" onclick="switchToFloor1()">Floor 1</button>
+     <button id="floor2Btn" class="btn btn-secondary" onclick="switchToFloor2()">Switch to Floor 2</button>
+      
+  </div>
+  <div class="container mapa_md">
+    <div id="floor1" class="floormap">
+      <img class="center-image" src="../pictures/floor1.jpg" alt="Building floor plan" usemap="#floorplan">
+      <map name="floorplan">
+              <area shape="rect" id="rect1" coords="17,16,293,207" href="Rooms/room1.html">
+              <area shape="rect" id="rect2" coords="17,221,200,399" href="Rooms/room2.html" alt="">
+              <area shape="rect" id="rect3" coords="210,220,442,400" href="Rooms/room3.html" alt="">
+              <area shape="rect" id="rect4" coords="453,220,626,398" href="Rooms/room4.html" alt="">
+              <area shape="rect" id="rect5" coords="305,16,522,148" href="Rooms/room5.html" alt="">
+              <area shape="rect" id="rect6" coords="534,17,686,150" href="Rooms/room6.html" alt="">
+              <area shape="rect" id="rect7" coords="306,160,632,208" href="Rooms/room7.html" alt="">
+              <area shape="poly" id="rect8" coords="636,162,636,209,865,209,862,16,699,17,697,156" href="Rooms/room8.html" alt="" > 
+            </map>
       </div>
+    <div id="floor2" class="container floormap" style="display:none;">
+      <img class="center-image" id="floor2" src="../pictures/planta2.jpg" alt="Building floor plan" usemap="#floorplan2">
+          <map name="floorplan2">
+            <area shape="rect" id="rect9" coords="284,56,658,167" alt="" href="Rooms/room9.html">
+            <area shape="rect" id="rect10" coords="475,177,733,222" alt="" href="Rooms/room10.html">
+            <area shape="rect" id="rect11" coords="744,177,842,361" alt="" href="Rooms/room11.html">
+            <area shape="rect" id="rect12" coords="680,232,733,361" alt="" href="Rooms/room12.html">
+            <area shape="rect" id="rect13" coords="284,232,669,361" alt="" href="Rooms/room13.html">
+          </map>
+  </div>
+  </div>
 
+  <div class="container mapa_sm">
+    <div id="floor1_tablet" class="floormap">
+      <img class="center-image" src="../pictures/floor1_tablet.jpg" alt="Building floor plan" usemap="#floorplan_tablet">
+      <map name="floorplan_tablet">
+              <area shape="rect" id="rect1" coords="13,13,221,156" href="Rooms/room1.html">
+              <area shape="rect" id="rect2" coords="13,164,150,300" href="Rooms/room2.html" alt="">
+              <area shape="rect" id="rect3" coords="158,164,331,300" href="Rooms/room3.html" alt="">
+              <area shape="rect" id="rect4" coords="340,165,470,300" href="Rooms/room4.html" alt="">
+              <area shape="rect" id="rect5" coords="228,13,391,112" href="Rooms/room5.html" alt="">
+              <area shape="rect" id="rect6" coords="399,13,516,112" href="Rooms/room6.html" alt="">
+              <area shape="rect" id="rect7" coords="229,120,475,158" href="Rooms/room7.html" alt="">
+              <area shape="poly" id="rect8" coords="524,13,524,120,474,120,476,156,647,157,646,12" href="Rooms/room8.html" alt="" > 
+            </map>
+      </div>
+    <div id="floor2_tablet" class="container floormap" style="display:none;">
+      <img class="center-image" id="floor2" src="../pictures/floor2_tablet.jpg" alt="Building floor plan" usemap="#floorplan2_tablet">
+          <map name="floorplan2_tablet">
+            <area shape="rect" id="rect9" coords="213,42,493,124" alt="" href="Rooms/room9.html">
+            <area shape="rect" id="rect10" coords="549,133,356,165" alt="" href="Rooms/room10.html">
+            <area shape="rect" id="rect11" coords="558,132,631,270" alt="" href="Rooms/room11.html">
+            <area shape="rect" id="rect12" coords="510,175,549,270" alt="" href="Rooms/room12.html">
+            <area shape="poly" id="rect13" coords="212,133,347,133,347,172,501,174,501,270,213,269" alt="" href="Rooms/room13.html">
+          </map>
+  </div>
+  </div>
+
+  <div class="container mapa_sm_2">
+    <div id="floor1_tablet_2" class="floormap">
+      <img class="center-image" src="../pictures/floor1_tablet_2.jpg" alt="Building floor plan" usemap="#floorplan_tablet_2">
+      <map name="floorplan_tablet_2">
+              <area shape="rect" id="rect1" coords="10,8,177,125" href="Rooms/room1.html">
+              <area shape="rect" id="rect2" coords="8,132,122,240" href="Rooms/room2.html" alt="">
+              <area shape="rect" id="rect3" coords="126,132,265,240" href="Rooms/room3.html" alt="">
+              <area shape="rect" id="rect4" coords="271,130,376,240" href="Rooms/room4.html" alt="">
+              <area shape="rect" id="rect5" coords="182,10,313,91" href="Rooms/room5.html" alt="">
+              <area shape="rect" id="rect6" coords="318,7,412,90" href="Rooms/room6.html" alt="">
+              <area shape="rect" id="rect7" coords="183,96,381,126" href="Rooms/room7.html" alt="">
+              <area shape="poly" id="rect8" coords="418,10,518,10,518,125,382,126,383,96,417,94" href="Rooms/room8.html" alt="" > 
+            </map>
+      </div>
+    <div id="floor2_tablet_2" class="container floormap" style="display:none;">
+      <img class="center-image" id="floor2" src="../pictures/floor2_tablet_2.jpg" alt="Building floor plan" usemap="#floorplan2_tablet_2">
+          <map name="floorplan2_tablet_2">
+            <area shape="rect" id="rect9" coords="169,34,395,101" alt="" href="Rooms/room9.html">
+            <area shape="rect" id="rect10" coords="285,106,439,133" alt="" href="Rooms/room10.html">
+            <area shape="rect" id="rect11" coords="446,106,507,217" alt="" href="Rooms/room11.html">
+            <area shape="rect" id="rect12" coords="408,140,441,217" alt="" href="Rooms/room12.html">
+            <area shape="poly" id="rect13" coords="170,107,171,216,401,216,401,140,277,138,278,106" alt="" href="Rooms/room13.html">
+          </map>
+  </div>
+  </div>
+
+  <div class="container mapa_xs">
+    <div id="floor1_mobile" class="container floormap">
+      <img class="center-image" src="../pictures/floor1_mobile.jpg" alt="Building floor plan" usemap="#floorplan_mobile">
+      <map name="floorplan_mobile">
+              <area shape="rect" id="rect1" coords="17,16,293,207" href="Rooms/room1.html" alt="">
+              <area shape="rect" id="rect2" coords="17,221,200,399" href="Rooms/room2.html" alt="">
+              <area shape="rect" id="rect3" coords="210,220,442,400" href="Rooms/room3.html" alt="">
+              <area shape="rect" id="rect4" coords="453,220,626,398" href="Rooms/room4.html" alt="">
+              <area shape="rect" id="rect5" coords="305,16,522,148" href="Rooms/room5.html" alt="">
+              <area shape="rect" id="rect6" coords="534,17,686,150" href="Rooms/room6.html" alt="">
+              <area shape="rect" id="rect7" coords="306,160,632,208" href="Rooms/room7.html" alt="">
+              <area shape="poly" id="rect8" coords="636,162,636,209,865,209,862,16,699,17,697,156" href="Rooms/room8.html" alt="" > 
+            </map>
+    </div>
+    <div id="floor2_mobile" class="container floormap" style="display:none;">
+      <img class="center-image" id="floor2" src="../pictures/floor2_mobile.jpg" alt="Building floor plan" usemap="#floorplan2_mobile">
+          <map name="floorplan2_mobile">
+            <area shape="rect" id="rect9" coords="284,56,658,167" alt="" href="Rooms/room9.html">
+            <area shape="rect" id="rect10" coords="475,177,733,222" alt="" href="Rooms/room10.html">
+            <area shape="rect" id="rect11" coords="744,177,842,361" alt="" href="Rooms/room11.html">
+            <area shape="rect" id="rect12" coords="680,232,733,361" alt="" href="Rooms/room12.html">
+            <area shape="rect" id="rect13" coords="284,232,669,361" alt="" href="Rooms/room13.html">
+          </map>
+  </div>
+</div>
+      <footer class="container">
+        <div class="footer">
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d384.6416166115838!2d-8.463785282849047!3d41.39690367226327!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24f6385de39c39%3A0x6b55a9b02c5a2d19!2sCasa%20de%20Camilo%20-%20Museu!5e1!3m2!1spt-PT!2spt!4v1680320223172!5m2!1spt-PT!2spt" width="250" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>     
+          <div class="copyr">
+            <span>© 2023 Copyright Digital Humanities - UM</span>
+           </div>
+           <div class="footer-info">
+            <p>Info about Casa de Camilo:</p> 
+            <p><i class="bi bi-telephone-fill"></i> 252 327 186</p>    
+            <p><i class="bi bi-globe"></i> http://www.camilocastelobranco.org</p>
+            <p><i class="bi bi-envelope-at-fill"></i> geral@camilocastelobranco.org</p>   
+          </div> 
+        </div>
+
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
 </html>

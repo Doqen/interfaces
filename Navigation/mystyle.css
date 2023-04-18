@@ -118,13 +118,10 @@ area:hover:after {
 
 #rect::after {
     position: absolute;
-    top: 175px;
-    left: 185px;
+    top: 18px;
+    left: 16px;
     width: 194px;
     height: 234px;
-    margin-left: 25%;
-    margin-top: 2%;
-    margin-bottom: 2%;
   }
 
 @media (max-width: 576px) {
