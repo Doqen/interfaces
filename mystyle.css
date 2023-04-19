@@ -63,6 +63,10 @@ body {
     height: auto;
 }
 
+.room-title {
+    font-size: 0.95em!important;
+}
+
 .floormap {
     position: relative;
     margin-top: 2%;
