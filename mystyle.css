@@ -453,6 +453,12 @@ area:hover:after {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+    /* .copyr {
+        position:relative;
+    }
+    .copy {
+        position: absolute;
+    } */
     .mapa_md {
         display: none;
     }
