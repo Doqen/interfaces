@@ -213,23 +213,6 @@ function createChapterTableCell(chapterList) {
 
     // Add the info button to the cell
     cell.appendChild(button1);
-
-    // Create the delete button
-    const button2 = document.createElement('button');
-    button2.type = 'button';
-    button2.classList.add('btn');
-    button2.classList.add('btn-danger');
-    button2.innerHTML = '<i class="bi bi-trash"></i>';
-
-    // Add event listener to the delete button
-    button2.addEventListener('click', () => {
-        // Remove the row from the table
-        row.remove();
-    });
-
-    // Add the delete button to the cell
-    cell.appendChild(button2);
-
     return cell;
 }
 

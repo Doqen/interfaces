@@ -78,6 +78,13 @@ area:hover:after {
     content: ' ';
   }
 
+.img-circle {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
 #rect1::after {
     position: absolute;
     top: 17px;
@@ -300,7 +307,7 @@ area:hover:after {
     #rect9::after {
         position: absolute;
         top: 33px;
-        left: 182px;
+        left: 170px;
         width: 224px;
         height: 67px;
     }
@@ -308,7 +315,7 @@ area:hover:after {
     #rect10::after {
         position: absolute;
         top: 105px;
-        left: 296px;
+        left: 284px;
         width: 156px;
         height: 28px;
     }
@@ -316,7 +323,7 @@ area:hover:after {
     #rect11::after {
         position: absolute;
         top: 105px;
-        left: 458px;
+        left: 445px;
         width: 60px;
         height: 112px;
     }
@@ -324,7 +331,7 @@ area:hover:after {
     #rect12::after {
         position: absolute;
         top: 141px;
-        left: 419px;
+        left: 408px;
         width: 32px;
         height: 76px;
     }
@@ -332,7 +339,7 @@ area:hover:after {
     #rect13::after {
         position: absolute;
         top: 140px;
-        left: 182px;
+        left: 170px;
         width: 232px;
         height: 76px;
     }
