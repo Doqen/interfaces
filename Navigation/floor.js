@@ -14,8 +14,8 @@ function switchToFloor1() {
     document.getElementById("floor2Btn").classList.remove("active");
     document.getElementById("floor2Btn").classList.add("btn-secondary");
 
-    document.getElementById("floor1Btn").textContent = "Floor 1";
-    document.getElementById("floor2Btn").textContent = "Switch to Floor 2";
+    document.getElementById("floor1Btn").textContent = "1º Andar";
+    document.getElementById("floor2Btn").textContent = "Ir para 2º Andar";
   }
   
   function switchToFloor2() {
@@ -33,8 +33,8 @@ function switchToFloor1() {
     document.getElementById("floor2Btn").classList.add("active");
     document.getElementById("floor2Btn").classList.remove("btn-secondary");
   
-    document.getElementById("floor1Btn").textContent = "Switch to Floor 1";
-    document.getElementById("floor2Btn").textContent = "Floor 2";
+    document.getElementById("floor1Btn").textContent = "Ir para 1º Andar";
+    document.getElementById("floor2Btn").textContent = "2º Andar";
   }
 
 
