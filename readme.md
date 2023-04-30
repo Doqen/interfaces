@@ -1,4 +1,4 @@
-# Museu Digital Camilo Castelo Branco
+# Museu Digital da Casa de Camilo Castelo Branco
 
 O Museu Digital Camilo Castelo Branco é um projeto desenvolvido por alunos do mestrado de Humanidades Digitais, mais precisamente na cadeira de Interfaces Web.
 Foi desenvolvido com tecnologias HTML, CSS e JavaScript. O objetivo é criar uma plataforma interativa e imersiva que apresente a vida e obra de Camilo Castelo Branco, um dos mais importantes escritores portugueses do século XIX.
