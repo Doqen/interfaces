@@ -23,6 +23,5 @@ function generateQuote() {
 }
 
 
-// Attach an event listener to the Generate button
 var generateButton = document.getElementById("generate-btn");
 generateButton.addEventListener("click", generateQuote);
