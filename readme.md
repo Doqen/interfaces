@@ -6,8 +6,8 @@ Foi desenvolvido com tecnologias HTML, CSS e JavaScript. O objetivo é criar uma
 ## Funcionalidades
 
 * Gerador de frases de Camilo Castelo Branco na página inicial.
-* Tour Digital do museu Casa de Camilo.
-* Lista das obras mais importantes de Camilo Castelo Banco.
+* Tour Digital do Museu Casa de Camilo Castelo Branco.
+* Lista das obras mais importantes de Camilo Castelo Branco.
 
 ## Instalação
 
