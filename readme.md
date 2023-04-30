@@ -5,11 +5,9 @@ Foi desenvolvido com tecnologias HTML, CSS e JavaScript. O objetivo é criar uma
 
 ## Funcionalidades
 
-* Navegação fácil e intuitiva
-* Exposição de objetos e documentos relacionados à vida e obra de Camilo Castelo Branco
-* Conteúdo multimídia: imagens, vídeos e áudios
-* Cronologia interativa
-* Pesquisa rápida e eficiente
+* Gerador de frases de Camilo Castelo Branco na página inicial.
+* Tour Digital do museu Casa de Camilo.
+* Lista das obras mais importantes de Camilo Castelo Banco.
 
 ## Instalação
 
@@ -18,18 +16,11 @@ Para instalar e executar o projeto localmente, siga os passos abaixo:
 1. Clone este repositório:
 git clone https://github.com/seuusuario/museu-digital-castelo-branco.git
 
-2. Abra o arquivo `index.html` no seu navegador favorito.
+2. Abra o arquivo `index.html` no seu navegador, e será importante adicionar a extensão de 'live server' para que possa ter acesso a todo o conteúdo. Outra opção, que será mais conveniente mas não terá acesso a todo o conteúdo, é abrir o site diretamente através do github pages: https://doqen.github.io/interfaces/index.html
 
 ## Contribuição
 
-Contribuições são sempre bem-vindas! Para contribuir, siga os passos abaixo:
-
-1. Faça um fork do projeto
-2. Crie uma nova branch (`git checkout -b minha-contribuicao`)
-3. Faça suas alterações e commit (`git commit -m 'Adicionei minha contribuição'`)
-4. Faça push para sua branch (`git push origin minha-contribuicao`)
-5. Abra um Pull Request
-
+Este projeto é open source, portanto qualquer contribuição será certamente analisada e possivelmente implementada. 
 
 ## Créditos
 
